@@ -1,0 +1,63 @@
+.card {
+  position: relative;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.offerTag {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  background-color: lightblue;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.imageContainer {
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.discountedPrice {
+  font-size: 18px;
+  font-weight: bold;
+  color: #31bcbc;
+}
+
+.originalPrice {
+  font-size: 18px;
+  color: #0d0d0d;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+.buttonContainer{
+  align-self: center;
+  width: 50%;
+}

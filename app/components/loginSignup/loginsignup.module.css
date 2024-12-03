@@ -1,0 +1,152 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #73d2cd;
+  text-align: left;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #787b7b;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.number {
+  color: black;
+  font-weight: 700;
+}
+.changeButton{
+  color: #796b48;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-width: 0px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: black;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.termsText {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #666;
+}
+
+.termsText a {
+  color: #796b48;
+  text-decoration: none;
+}
+
+.termsText a:hover {
+  text-decoration: underline;
+}
+
+.resendText {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #666;
+}
+
+.resendButton {
+  background: none;
+  border: none;
+  color: #0070f3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.radioGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.radioLabel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  color: #73d2cd;
+}
+
+.radioInput {
+  display: none;
+}
+
+.radioCircle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  display: inline-block;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.filled {
+  background-color: #73d2cd;
+  border-color: #4caf50;
+}
+
+.unfilled {
+  background-color: transparent;
+  border-color: #73d2cd;
+}
+.bottomText{
+  font-size: 10px;
+  color: #796b48;
+  text-decoration: underline;
+  font-weight: 600;
+  margin-top: 20px;
+}

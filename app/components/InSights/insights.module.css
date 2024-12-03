@@ -1,0 +1,19 @@
+.insights {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.insight {
+  display: flex;
+  align-items: center;
+  flex-direction:column ;
+  gap: 15px;
+}
+
+.insight p {
+  margin: 0;
+  font-size: 1rem;
+  color: #555;
+  text-align: center;
+}

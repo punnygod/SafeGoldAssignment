@@ -1,0 +1,28 @@
+.accordion {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .faqItem {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .question {
+    background: #f9f9f9;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .question span {
+    float: right;
+  }
+  
+  .answer {
+    padding: 10px;
+    background: #fff;
+    color: #333;
+  }
+  
